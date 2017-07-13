@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
-ruby '~> 2.3.1'
+ruby '~> 2.4.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.0.2'
+gem 'rails', '~> 5.0.2'
 
+gem 'pg', '~> 0.18'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -31,11 +32,9 @@ end
 
 group :development, :test do
   gem 'puma'
-  gem 'sqlite3'
 end
 
 group :production do
-  gem 'pg'
   gem 'unicorn'
   gem 'rails_12factor'
   gem 'fog'
