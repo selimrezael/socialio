@@ -77,7 +77,7 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_mailer.default_url_options = { host: 'http://socialioyapp.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: 'https://whispering-eyrie-49738.herokuapp.com' }
 
   ActionMailer::Base.delivery_method = :smtp
   ActionMailer::Base.perform_deliveries = true
@@ -86,8 +86,8 @@ Rails.application.configure do
     :address              => 'smtp.sendgrid.net',
     :port                 => '587',
     :domain               => 'heroku.com',
-    :user_name            => ENV['USERNAME'],
-    :password             => ENV['PASSWORD'],
+    :user_name            => 'yuvasoftest@gmail.com',
+    :password             => 'yuva12345678',
     :authentication       => "plain",
     :enable_starttls_auto => true
   }
