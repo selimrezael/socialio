@@ -83,9 +83,9 @@ Rails.application.configure do
   ActionMailer::Base.perform_deliveries = true
 
   ActionMailer::Base.smtp_settings = {
-    :address              => 'smtp.sendgrid.net',
+    :address              => 'smtp.gmail.com',
     :port                 => '587',
-    :domain               => 'heroku.com',
+    :domain               => 'gmail.com',
     :user_name            => 'yuvasoftest@gmail.com',
     :password             => 'yuva12345678',
     :authentication       => "plain",
