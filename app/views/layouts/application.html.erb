@@ -21,8 +21,11 @@
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
       </div>
     <% end %>
+    <div class="wraper-content">
     <div class="container">
       <%= yield %>
     </div>
+    </div>
+    <%= render 'layouts/footer_new' %>
   </body>
 </html>

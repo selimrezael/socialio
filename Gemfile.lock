@@ -442,6 +442,7 @@ DEPENDENCIES
   merit
   pg
   populator
+  pry
   public_activity
   puma
   rails (= 5.0.2)

@@ -20,3 +20,25 @@
 @import "fullcalendar.min";
 @import "fontello-embedded";
 @import "*";
+
+.image_set{
+	height:380px;
+	overflow:hidden;
+}
+.image_set img{
+	width:100%;
+}
+footer{
+    position: absolute;
+    margin-bottom: 0;
+    width:100%;
+    bottom:0;
+}
+body , .wraper-content{
+	position: relative;
+    height: 100%;
+    overflow-y:auto;
+}
+html{
+	height:100%;
+}
